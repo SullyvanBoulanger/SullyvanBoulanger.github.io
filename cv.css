@@ -7,7 +7,8 @@
     box-sizing: border-box;
 }
 body{
-    background: #ededed;
+    background: #191919;
+    color:#fff;
 }
 p{
     font-size: 1em;
@@ -15,7 +16,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 /*HEADER & FOOTER*/
@@ -23,10 +24,10 @@ header, footer{
     width: 100%;
     padding: 20px 0px;
     background: url("img/fond.jpg") #4f4f4f;
-    box-shadow: 0px 0px 15px #333;
+    box-shadow: 0px 0px 15px #1F1F1F;
 }
 header{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #191919;
     height: 120px;
 }
 header h1{
@@ -37,7 +38,7 @@ header h1{
 }
 
 footer{
-    border-top: 2px solid #fff;
+    border-top: 2px solid #191919;
 }
 footer p{
     width: 90%;
@@ -57,8 +58,8 @@ section{
     width: 100%;
     padding-bottom: 20px;
     margin: 20px auto;
-    box-shadow: 0px 0px 10px #bbb;
-    background-color: #fff;
+    box-shadow: 0px 0px 10px #1F1F1F;
+    background-color: #262626;
 }
 
 section h2{
@@ -77,7 +78,7 @@ section > div{
     width: 150px;
     height: 150px;
     border: 3px solid #fff;
-    box-shadow: 0px 0px 10px #777;
+    box-shadow: 0px 0px 10px #1F1F1F;
     border-radius: 50%;
     margin-top: -80px;
 }
@@ -90,8 +91,8 @@ section > div{
     padding: 10px;
     margin: 10px auto 30px auto;
     color: #fff;
-    background-color: #EA0;
-    box-shadow: 0px 0px 10px #ccc;
+    background-color: #B2113F;
+    box-shadow: 0px 0px 10px #1F1F1F;
     border-radius: 5px;
 }
 .contact-flex{
@@ -162,7 +163,6 @@ section > div{
     flex: 0 0 60%;
     border-radius: 5px;
     background-color: grey;
-    border-bottom: 1px ridge grey;
 }
 .barre{
     display: block;
@@ -172,39 +172,39 @@ section > div{
 }
 .c15{
     width: 15%;
-    background-color: #8B8;
+    background-color: #D21448;
 }
 .c20{
     width: 20%;
-    background-color: #8B8;
+    background-color: #D21448;
 }
 .c50{
     width: 50%;
-    background-color: #8B8;
+    background-color: #D21448;
 }
 .c65{
     width: 65%;
-    background-color: #8B8;
+    background-color: #D21448;
 }
 .c80{
     width: 80%;
-    background-color: #4B8;
+    background-color: #D21448;
 }
 .c85{
     width: 85%;
-    background-color: #8B8;
+    background-color: #D21448;
 }
 .c90{
     width: 90%;
-    background-color: #4B8;
+    background-color: #D21448;
 }
 .c95{
     width: 95%;
-    background-color: #4B8;
+    background-color: #D21448;
 }
 .c100{
     width: 100%;
-    background-color: #4B8;
+    background-color: #D21448;
     border-radius: 5px;
 }
 .comp2{
@@ -232,7 +232,7 @@ section > div{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px #555;
+    box-shadow: 0px 0px 15px #1F1F1F;
 }
 
 .interet p{
@@ -243,10 +243,10 @@ section > div{
 @media screen and (min-width: 980px){
     section{
         width: 80%;
-        box-shadow: 0px 0px 10px #bbb;
+        box-shadow: 0px 0px 10px #1F1F1F;
     }
     a:hover{
-        color: #EA0;
+        color: #D21448;
     }
     header h1{
         width: 80%;
@@ -268,10 +268,10 @@ section > div{
         border: 2px solid transparent;
     }
     .prez a:hover{
-        color: #f28835;
-        background-color: #fff;
-        border: 2px solid #f28835;
-        box-shadow: 0px 0px 20px #666;
+        color: #D21448;
+        background-color: #1F1F1F;
+        border: 2px solid #D21448;
+        box-shadow: 0px 0px 20px #1F1F1F;
     }
     .exp-logo{
         flex: 0 0 10%;
