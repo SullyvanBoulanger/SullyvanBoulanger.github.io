@@ -222,10 +222,11 @@ section > div{
 
 /*SECTION INTERETS*/
 .interet{
-    flex: 0 1 50%;
+    flex: 0 1 25%;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin: 15 15 15 15;
     margin-bottom: 20px;
 }
 .interet img{
@@ -233,6 +234,11 @@ section > div{
     height: 80px;
     border-radius: 50%;
     box-shadow: 0px 0px 15px #1F1F1F;
+}
+
+.interet figcaption{
+   font-weight: bold;
+   margin-bottom: 5;
 }
 
 .interet p{
@@ -282,5 +288,10 @@ section > div{
     }
     .interet{
         flex: 0 1 25%;
+    }
+
+    .interet figcaption{
+       font-weight: bold;
+       margin-bottom: 5;
     }
 }
